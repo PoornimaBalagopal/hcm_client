@@ -20,11 +20,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var staticPath = path.join(__dirname, '/app');
 app.use(express.static(staticPath));
 
-
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'test1.html'));
 });
-
 app.listen(app.get('port'), app.get('host'), function () {
     console.log('Express server listening on port ' + app.get('port'));
 });
