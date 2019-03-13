@@ -21,7 +21,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "ng": "ng",
     "start": "npm install && npm run start-server",
     "start-server": "node server",
     "build": "ng build",
