@@ -20,9 +20,7 @@
     "express-sse": "*"
   },
   "devDependencies": {},
- "scripts": {
+  "scripts": {
     "start": "node server.js"
   }
-}
-
 }
