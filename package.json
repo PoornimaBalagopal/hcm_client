@@ -20,12 +20,9 @@
     "express-sse": "*"
   },
   "devDependencies": {},
-  "scripts": {
-    "start": "npm install && npm run start-server",
-    "start-server": "node server",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+ "scripts": {
+    "start": "node server.js"
   }
+}
+
 }
