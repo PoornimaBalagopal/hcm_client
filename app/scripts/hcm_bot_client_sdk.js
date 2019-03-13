@@ -15,7 +15,7 @@
   Bots.on("message:received", deleteTagsInCarouselPreview);
   
 // to clear the client whenever the page is reloaded including page navigation 
-          Bots.init({appId: '5c889db0effbf700110a5f80'})
+          Bots.init({appId: '5c88cf766e1ae40010eeff2f'})
        .then(function addCustomTagStyling() {        
          const chatFrame = document.getElementById("web-messenger-container").contentDocument;
         const cssLink = document.createElement("link");
