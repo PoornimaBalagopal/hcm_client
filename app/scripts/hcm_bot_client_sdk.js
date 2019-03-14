@@ -15,7 +15,18 @@
   Bots.on("message:received", deleteTagsInCarouselPreview);
   
 // to clear the client whenever the page is reloaded including page navigation 
-          Bots.init({appId: '5c88cf766e1ae40010eeff2f'})
+            Bots.init({
+			  appId: '5c88cf766e1ae40010eeff2f',
+			  fixedIntroPane: true,	
+			businessName: "Oracle Guided Learning",	
+			businessIconUrl: "https://hcm-client.herokuapp.com/images/download.png",	
+			customColors: {
+				brandColor: '65758e',
+				conversationColor: '65758e',
+				actionColor: '65758e',
+			}
+		     
+	   })
        .then(function addCustomTagStyling() {        
          const chatFrame = document.getElementById("web-messenger-container").contentDocument;
         const cssLink = document.createElement("link");
